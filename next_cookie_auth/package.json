@@ -1,0 +1,17 @@
+{
+  "name": "next_cookie_auth",
+  "version": "1.0.0",
+  "description": "Cookie authentication with Next.js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "author": "Igor Savin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
