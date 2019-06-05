@@ -26,7 +26,7 @@ const Layout = ({ title, children }) =>(
     .root {
       display: flex;
       align-items: center;
-      justify-content: denter;
+      justify-content: center;
       flex-direction: column;
     }
     .navbar {
@@ -35,7 +35,7 @@ const Layout = ({ title, children }) =>(
       justify-content: space-around;
     }
     a {
-      mirgin-right: 0.5em;
+      margin-right: 0.5em;
     }
     button {
       text-decoration: underline;

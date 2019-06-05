@@ -51,7 +51,7 @@ class LoginForm extends React.Component {
         <button disabled={isLoading} type="submit">
           {isLoading ? "Sending" : "Submit"}
         </button>
-        {error && <dir>{error}</dir>}
+        {error && <div>{error}</div>}
       </form>
     )
   }

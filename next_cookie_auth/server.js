@@ -45,11 +45,6 @@ app.prepare().then(() =>{
     }
     res.cookie('token', userData, COOKIE_OPTIONS);
     res.json(userData);
-    // res.json({
-    //   email,
-    //   password,
-    //   success: true
-    // })
   })
 
   server.get('/api/profile', async (req, res) =>{
